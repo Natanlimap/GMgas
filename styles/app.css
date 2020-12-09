@@ -52,7 +52,7 @@
     }
     #Header{
         background-image: url('../public/header-backgorund-mobile.svg');
-        height: 80vh;
+        height: 100vh;
         background-repeat: no-repeat;
         background-size: contain;
     }
