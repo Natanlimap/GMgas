@@ -1,11 +1,12 @@
 .body{
     font-family: 'Raleway', sans-serif !important;
+    overflow-x: hidden;
 }
 #Header{
     background-image: url('../public/navbar-background.svg');
-    width: 100vw;
+    height: 56vw;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 #Loja{
     background-image: url('../public/backgroundLojaWeb.svg');
@@ -13,9 +14,16 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+#Footer{
+    background-image: url('../public/teste.svg');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #Artesanal{
     background-image: url('../public/artesanal-background.svg');
     width: 100vw;
+    height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -41,8 +49,12 @@
         background-image: url('../public/produtos-background-mobile.svg');
         background-size: cover;
         width: 100vw;
-
-
+    }
+    #Header{
+        background-image: url('../public/header-backgorund-mobile.svg');
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
  
 }
@@ -56,3 +68,28 @@
 
 
 
+#floatSide{
+    position:fixed;
+	color:#FFF;
+	text-align:center;
+  font-size:30px;
+  height: 100;
+  z-index:100;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
