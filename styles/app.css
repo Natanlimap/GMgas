@@ -4,7 +4,8 @@
 }
 #Header{
     background-image: url('../public/navbar-background.svg');
-    height: 56vw;
+    height: 100vh;
+    width: 100vw;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -16,7 +17,8 @@
 }
 #Footer{
     background-image: url('../public/teste.svg');
-    
+    height: 50px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
