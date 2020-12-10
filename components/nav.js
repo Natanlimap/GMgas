@@ -31,16 +31,17 @@ export default function MyNavbar({ fixed }) {
   return (
     <div>
       {teste}
-      <div className='py-10  mx-10 flex flex-row justify-center'>
-        <div className='lg:w-1/4 '>
-          <img className='lg:w-2/4 w-2/4' style={{minWidth: '10px'}} src='./nav-logo.svg'></img>
-        </div>
+      <div className='md:pt-20 pt-10 mx-10 flex flex-row md:justify-center justify-between'>
+
         <div className='hidden md:flex flex-row my-auto'>
-           <Link href='/' to={'Artesanal1'} style={{color: "#d54243"}} smooth={true} className='text-white text-xl mx-5'><p>Artesanal</p></Link>
-           <Link href='/' to={'Produtos'} style={{color: "#d54243"}} smooth={true} className='text-white text-xl mx-5'><p>Produtos</p></Link>
-           <Link href='/' to={'Loja'} style={{color: "#d54243"}} smooth={true} className='text-white text-xl mx-5'><p>Loja</p></Link>
-           <Link href='/' to={'Contato'} style={{color: "#d54243"}} smooth={true} className='text-white text-xl mx-5'><p>Contato</p></Link>
+         <img className=' w-2/4 lg:mr-20' style={{minWidth: '10px'}} src='./nav-logo.svg'></img>
+           <Link href='/' to={'Artesanal1'} style={{color: "#d54243"}} smooth={true} className='text-white text-base mx-5'><p>Artesanal</p></Link>
+           <Link href='/' to={'Produtos'} style={{color: "#d54243"}} smooth={true} className='text-white text-base mx-5'><p>Produtos</p></Link>
+           <Link href='/' to={'Loja'} style={{color: "#d54243"}} smooth={true} className='text-white text-base mx-5'><p>Loja</p></Link>
+           <Link href='/' to={'Contato'} style={{color: "#d54243"}} smooth={true} className='text-white text-base mx-5'><p>Contato</p></Link>
         </div>
+        <img className='md:hidden w-2/4 lg:mr-20' style={{minWidth: '10px'}} src='./nav-logo.svg'></img>
+
         <a className='flex md:hidden' style={{width: '30px'}} onClick={openNav}><img src='./header-hamburguer.svg'></img></a>
       </div>
     </div>
