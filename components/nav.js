@@ -14,10 +14,12 @@ export default function MyNavbar({ fixed }) {
           <button  onClick={closeNav} className='text-white pr-5 pt-5'>x</button>
         </div>
         <div className='flex text-left flex-col ml-5'>
-          <Link to={'Artesanal'} smooth={true} style={{ fontSize: '25px'}} className='text-white text-3xl mx-5'><p>Artesanal</p></Link>
-          <Link to={'Produtos'} smooth={true} style={{ fontSize: '25px'}} className='text-white text-3xl mx-5'><p>Produtos</p></Link>
-          <Link to={'Loja'} smooth={true} style={{ fontSize: '25px'}} className='text-white text-3xl mx-5'><p>Loja</p></Link>
-          <Link to={'Contato'} smooth={true} style={{ fontSize: '25px'}} className='text-white text-3xl mx-5'><p>Contato</p></Link>
+          <Link to={'Artesanal'} smooth={true} style={{ fontSize: '25px'}} className='text-white text-3xl mx-5'><p>QUEM SOMOS</p></Link>
+          <Link to={'Produtos'} smooth={true} style={{ fontSize: '25px'}} className='text-white text-3xl mx-5'><p>SERVIÇOS E VALORES</p></Link>
+          <Link to={'Loja'} smooth={true} style={{ fontSize: '25px'}} className='text-white text-3xl mx-5'><p>PEÇA JÁ O SEU</p></Link>
+          <Link to={'Contato'} smooth={true} style={{ fontSize: '25px'}} className='text-white text-3xl mx-5'><p>RETIRE NA LOJA</p></Link>
+          <Link to={'Contato'} smooth={true} style={{ fontSize: '25px'}} className='text-white text-3xl mx-5'><p>CONTATO</p></Link>
+
         </div>
       </div>
     )
@@ -29,16 +31,18 @@ export default function MyNavbar({ fixed }) {
     )
   }
   return (
-    <div>
+    <div style={{backgroundColor: '#253891'}}>
       {teste}
-      <div className='md:pt-20 pt-10 mx-10 flex flex-row md:justify-center justify-between'>
+      <div className='md:pt-10 pt-10 mx-10 flex flex-row md:justify-center justify-between'>
 
         <div className='hidden md:flex flex-row my-auto'>
-         <img className=' w-2/4 lg:mr-20' style={{minWidth: '10px'}} src='./nav-logo.svg'></img>
-           <Link href='/' to={'Artesanal1'} style={{color: "#d54243"}} smooth={true} className='text-white text-base mx-5'><p>Artesanal</p></Link>
-           <Link href='/' to={'Produtos'} style={{color: "#d54243"}} smooth={true} className='text-white text-base mx-5'><p>Produtos</p></Link>
-           <Link href='/' to={'Loja'} style={{color: "#d54243"}} smooth={true} className='text-white text-base mx-5'><p>Loja</p></Link>
-           <Link href='/' to={'Contato'} style={{color: "#d54243"}} smooth={true} className='text-white text-base mx-5'><p>Contato</p></Link>
+         <img className=' w-1/6 lg:mr-20' style={{minWidth: '10px'}} src='./nav-logo.svg'></img>
+           <Link href='/' to={'Artesanal1'} style={{color: "#f2cc35"}} smooth={true} className='text-white text-sm mx-5'><p>QUEM SOMOS</p></Link>
+           <Link href='/' to={'Produtos'} style={{color: "#f2cc35"}} smooth={true} className='text-white text-sm mx-5'><p>SERVIÇOS E VALORES</p></Link>
+           <Link href='/' to={'Loja'} style={{color: "#f2cc35"}} smooth={true} className='text-white text-sm mx-5'><p>PEÇA JÁ O SEU</p></Link>
+           <Link href='/' to={'Contato'} style={{color: "#f2cc35"}} smooth={true} className='text-white text-sm mx-5'><p>RETIRE NA LOJA</p></Link>
+           <Link href='/' to={'Contato'} style={{color: "#f2cc35"}} smooth={true} className='text-white text-sm mx-5'><p>CONTATO</p></Link>
+
         </div>
         <img className='md:hidden w-2/4 lg:mr-20' style={{minWidth: '10px'}} src='./nav-logo.svg'></img>
 
