@@ -4,11 +4,11 @@ import Link from 'next/link'
 
 export default function Contato() {
     return (
-        <div id='Contato' style={{ backgroundColor: '#f3f2f1' }}>
-            <div className='py-10 flex flex-col'>
-                <p style={{ color: '#253891' }} className='text-center text-lg mx-96 px-64 font-semibold'>Ligue para a gente ou mande uma mensagem e peça já o seu!</p>
-                <div className='flex flex-row justify-center py-10'>
-                    <a href='/'>
+        <div id='Contato'>
+            <div className='py-10 flex flex-col' style={{ backgroundColor: '#f3f2f1' }}>
+                <p style={{ color: '#253891' }} className='text-center mx-20 text-lg font-semibold sm:mx-40 lg:mx-40 lg:px-64'>Ligue para a gente ou mande uma mensagem e peça já o seu!</p>
+                <div className='flex flex-row justify-center py-10' >
+                    <a href='https://api.whatsapp.com/send?phone=+5584988718045&text='>
                         <div className='py-3 px-5 rounded-lg' style={{ backgroundColor: '#9dca31' }}>
                             <div className='flex flex-row justify-center'>
                                 <Image
@@ -21,12 +21,12 @@ export default function Contato() {
                         </div>
                     </a>
                 </div>
-                <div className='mx-96 px-64 text-center'> 
+            </div>
+            <div className='text-center bg-white py-5 lg:mx-0 lg:px-64 '> 
                     <p className='font-bold'>ENDEREÇO</p>
                     <p>RUA SANTA LUZIA, 1821 - IGAPÓ</p>
                     <p>NATAL - RN, 59104-300</p>
                 </div>
-            </div>
         </div>
     )
 }

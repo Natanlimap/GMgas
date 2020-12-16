@@ -3,49 +3,49 @@ import Image from "next/image";
 export default function Acabou() {
     return (
         <div id='Acabou'>
-            <div className='my-20 flex flex-row flex-wrap justify-center'>
-                <div style={{ color: '#213282' }} className='w-1/4 font-bold'>
-                    <h2 className='text-5xl'>Está preparando aquela comidinha e o gás acabou? A GM Gás resolve!</h2>
+            <div className='my-10 mx-4 sm:mx-10 flex  flex-col text-left  md:flex-row flex-wrap justify-center'>
+                <div style={{ color: '#213282' }} className='sm:mx-28 md:mx-52 lg:mx-0  lg:w-2/6 font-bold'>
+                    <h2 className='lg:text-4xl text-4xl'>Está preparando aquela comidinha e o gás acabou? A GM Gás resolve!</h2>
                 </div>
-                <div className='flex flex-col justify-center ml-20 w-1/5'>
-                    <p className='text-base'>Somos a representante oficial da ULTRAGAZ na Zona Norte!
+                <div className='sm:hidden md:block w-10'></div>
+
+                <div className='flex flex-col justify-center sm:mx-28  md:mx-52 lg:mx-0  lg:w-2/6'>
+                    <p className='text-sm lg:text-base mt-5 lg:mt-0'>Somos a representante oficial da ULTRAGAZ na Zona Norte!
                     Faça sua retirada na loja ou peça no conforto do seu lar que entregamos para você!
                     Funcionamos das 7h às 18h de segunda a sábado.
                     </p>
-                    <Image
+                    <img
+                        className='hidden lg:block'
                         src='/Acabou-logo.svg'
-                        width={100}
-                        height={60}
-                    ></Image>
-
+                    ></img>
                 </div>
             </div>
             <div className='flex flex-col'>
-                <h3 style={{ color: '#e9bc14' }} className='text-center mb-10 text-3xl font-bold'>Formas de pagamento</h3>
-                <div className='flex flex-row justify-evenly mx-60 px-60 font-medium	' >
-                    <div className='text-center mb-5'>
-                        <Image
+                <h3 style={{ color: '#e9bc14' }} className='text-center mb-5 sm:text-2xl text-xl font-bold'>Formas de pagamento</h3>
+                <div className='flex flex-row justify-evenly sm:mx-28  lg:mx-20 lg:px-60 font-medium' >
+                    <div className='text-center'>
+                        <img
+                            className='mt-2 mx-auto h-10 lg:h-14'
                             src='/Acabou-cartao.png'
-                            width={60}
-                            height={60}
-                        ></Image>
-                        <p>Cartão de crédito</p>
+                        ></img>
+                        <p className='text-xs sm:text-base'>Cartão de crédito</p>
                     </div>
+
                     <div className='text-center mb-5'>
-                        <Image
+                        <img
                             src='/Acabou-dinheiro.svg'
-                            width={60}
-                            height={60}
-                        ></Image>
-                        <p>Dinheiro</p>
+                            className='mt-2 mx-auto h-10 lg:h-14'
+
+                        ></img>
+                        <p className='text-xs sm:text-base'>Dinheiro</p>
                     </div>
                     <div className='text-center mb-5'>
-                        <Image
+                        <img
+                            className='mt-2 mx-auto h-10 lg:h-14'
                             src='/Acabou-vale.svg'
-                            width={60}
-                            height={60}
-                        ></Image>
-                        <p>Vale Ultragás</p>
+
+                        ></img>
+                        <p className='text-xs sm:text-base'>Vale Ultragás</p>
                     </div>
 
                 </div>
