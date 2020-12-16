@@ -9,8 +9,8 @@ export default function Header(){
             <div className='sm:block hidden'>
             <Image
                 src='/banner.png'
-                width={1920}
-                height={1080}
+                width={1366}
+                height={768}
                 >
             </Image>
             </div>
