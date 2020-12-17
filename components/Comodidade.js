@@ -11,7 +11,7 @@ export default function Comodidade() {
                 <div className=' my-5 flex flex-row flex-wrap justify-center ' id='Peca'>
                     <div className='flex flex-col justify-center rounded-lg' style={{ backgroundColor: '#253791' }}>
                         <div className='w-52 h-52 mb-10 '>
-                            <h3 style={{ color: '#d3b02c' }} className='text-3xl sm:mt-5 mx-2 font-bold'>Retire na loja</h3>
+                            <h3 style={{ color: '#d3b02c' }} className='text-3xl mt-5 mx-2 font-bold'>Retire na loja</h3>
                             <div className='flex flex-row text-base  text-left mt-4 mx-3 text-white'>
                                 <p>Sem espera. Venha no GM Postos e faça a retirada rápida do seu gás. É Só Chegar!</p>
 
