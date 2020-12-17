@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Acabou() {
     return (
-        <div id='Acabou'>
+        <div id='Acabou' id='Somos'>
             <div className='my-10 mx-4 sm:mx-10 flex  flex-col text-left  md:flex-row flex-wrap justify-center'>
                 <div style={{ color: '#213282' }} className='sm:mx-28 md:mx-52 lg:mx-0  lg:w-2/6 font-bold'>
                     <h2 className='lg:text-4xl text-4xl'>Está preparando aquela comidinha e o gás acabou? A GM Gás resolve!</h2>
@@ -20,7 +20,7 @@ export default function Acabou() {
                     ></img>
                 </div>
             </div>
-            <div className='flex flex-col'>
+            <div className='flex flex-col' id='Servicos'>
                 <h3 style={{ color: '#e9bc14' }} className='text-center mb-5 sm:text-2xl text-xl font-bold'>Formas de pagamento</h3>
                 <div className='flex flex-row justify-evenly sm:mx-28  lg:mx-20 lg:px-60 font-medium' >
                     <div className='text-center'>
