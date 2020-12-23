@@ -31,7 +31,7 @@ export default function MyNavbar({ fixed }) {
     )
   }
   return (
-    <div style={{backgroundColor: '#2f3b8d'}}>
+    <div style={{backgroundColor: 'transparent'}}>
       {teste}
       <div className='md:pt-10 pt-10 mx-10 flex flex-row md:justify-center justify-between'>
 
