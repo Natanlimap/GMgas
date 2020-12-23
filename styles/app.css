@@ -8,13 +8,8 @@
 }
 
 #Header{
-    min-height: 720px;
-    height: 100vh;
     width: 100%;
-    background-image: url('../public/banner.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #253891;
 }
   
 
@@ -45,4 +40,9 @@
 
 .my-float{
 	margin-top:16px;
+}
+@media screen and (max-width: 500px){
+  #Header{
+      background-color: #2f3a8d;
+  }
 }

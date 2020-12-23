@@ -4,10 +4,10 @@ import MyNavbar from "./nav";
 
 export default function Header(){
     return(
-        <div className='text-center'  id='Header' style={{backgroundColor: '#2f3b8d'}}>
+        <div className='text-center'  id='Header'>
             <MyNavbar></MyNavbar>
             <div className='sm:block hidden'>
-            {/* <Image
+            <Image
                 src='/banner.png'
                 width={1366}
                 height={768}
@@ -20,7 +20,7 @@ export default function Header(){
                 width={1080}
                 height={1380}
                 >
-            </Image> */}
+            </Image>
             </div>
         </div>
     )
