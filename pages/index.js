@@ -1,11 +1,8 @@
 import Acabou from '../components/Acabou'
-import Artesanal from '../components/Artesanal'
 import Comodidade from '../components/Comodidade'
 import Contato from '../components/Contato'
 import Header from '../components/Header'
-import Loja from '../components/Loja'
 import Mapa from '../components/Mapa'
-import Produtos from '../components/Produto'
 
 export default function IndexPage() {
   return (
