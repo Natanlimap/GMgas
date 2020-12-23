@@ -4,10 +4,16 @@
 .body{
     font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     overflow-x: hidden !important;
-    background-color: white;
+    background-color: #FFF;
+    background:#FFF;
+
 
 }
 
+
+   _::-webkit-full-page-media, _:future, :root .panel {
+     background-color:#FFF
+  }
 #Header{
     width: 100%;
     background-color: #253891;
